@@ -11,7 +11,6 @@ export class AppComponent implements OnInit {
   user2activated = false;
 
   constructor(private usersService: UsersService) {
-
   }
 
   ngOnInit() {
